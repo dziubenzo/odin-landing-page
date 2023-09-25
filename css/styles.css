@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -18,16 +17,25 @@ body {
     font-weight: 900;
 }
 
-.section1 {
+.section1-wrapper {
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
-    padding: 32px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    flex: 1;
 }
 
 .navbar-container {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid black;
+    padding: 32px;
 }
 
 .right-side a,
@@ -38,29 +46,46 @@ body {
 
 .right-side a {
     text-decoration: none;
-    margin: 0 8px;
+    margin-left: 12px;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    padding: 4px 0;
+}
+
+.hero-secondary-text {
+    padding: 4px 0;
 }
 
 .image-awesome {
-    width: 400px;
+    width: 500px;
+    flex: 1;
 }
 
 .awesome-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
     border: 1px solid black;
+    gap: 16px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 300px;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.sign-up-button {
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    font-size: 24px;
+    margin: 4px 0;
 }
