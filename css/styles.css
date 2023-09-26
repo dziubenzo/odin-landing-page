@@ -177,7 +177,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
     border-radius: 8px;
     padding: 32px 92px;
     gap: 80px;
@@ -199,7 +199,7 @@ body {
 }
 
 #button-section4 {
-    border: 2px solid white;
+    border: 2px solid #f9faf8;
     border-radius: 8px;
     width: 110px;
     height: 35px;
@@ -208,4 +208,18 @@ body {
     color: #f9faf8;
     background-color: #3882f6;
     margin: 4px 0;
+}
+
+/* Footer CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    color: #f9faf8;
+    padding: 24px;
 }
