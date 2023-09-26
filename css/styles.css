@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    padding-bottom: 48px;
 }
 
 .section1 {
@@ -100,7 +101,6 @@ body {
 .section2-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 24px 0;
 }
 
