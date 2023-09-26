@@ -57,7 +57,7 @@ body {
 }
 
 .hero-secondary-text {
-    padding: 4px 0;
+    padding: 4px 0 8px 0;
 }
 
 .image-awesome {
@@ -80,11 +80,7 @@ body {
     width: 400px;
 }
 
-.image {
-    display: flex;
-}
-
-.sign-up-button {
+.section1-button {
     border: #3882f6;
     border-radius: 8px;
     width: 150px;
@@ -142,7 +138,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 82px 0;
+    padding: 82px 0 72px 0;
 }
 
 .section3 {
@@ -164,7 +160,52 @@ body {
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
     padding: 8px 0;
 }
 
 /* Section 4 CSS */
+
+.section4-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 82px 0;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 32px 92px;
+    gap: 80px;
+}
+
+.section4-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-text-top {
+    font-weight: 800;
+    padding: 2px 0;
+}
+
+.section4-text-bottom {
+    font-size: small;
+    font-weight: 300;
+}
+
+#button-section4 {
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 110px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 4px 0;
+}
