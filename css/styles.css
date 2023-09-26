@@ -11,6 +11,8 @@ body {
     justify-content: space-between;
 }
 
+/* Section 1 CSS */
+
 .left-side p {
     font-size: 24px;
     color: #f9faf8;
@@ -92,3 +94,46 @@ body {
     background-color: #3882f6;
     margin: 4px 0;
 }
+
+/* Section 2 CSS */
+
+.section2-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.some-random-information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.die-image {
+    height: auto;
+    width: 130px;
+}
+
+.dice-row-with-text {
+    display: flex;
+    justify-content: center;
+}
+
+.die-and-text {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    text-align: center;
+}
+
+.text-under-die {
+    padding: 16px;
+}
+
+/* Section 3 CSS */
