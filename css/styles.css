@@ -51,7 +51,7 @@ body {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #f9faf8;
     padding: 4px 0;
 }
@@ -101,12 +101,12 @@ body {
 .section2-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 24px 0;
+    padding: 24px 0 48px 0;
 }
 
 .some-random-information {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1f2937;
     display: flex;
     justify-content: center;
@@ -137,3 +137,34 @@ body {
 }
 
 /* Section 3 CSS */
+
+.section3-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 82px 0;
+}
+
+.section3 {
+    width: 600px;
+}
+
+.quote-with-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    padding: 8px 0;
+}
+
+/* Section 4 CSS */
